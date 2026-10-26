@@ -6,6 +6,13 @@ export const dbConfig = {
   user: process.env.DB_USER || 'sfc_cmr_app',
   password: process.env.DB_PASSWORD || '',
   database: process.env.DB_NAME || 'sfc_cmr',
+
+
+    // host: '16.112.96.135',
+  // port: 3306,
+  // user: 'Jsfc_Amazon',
+  // password: 'Jsfc_Amazon@2026',
+  // database: 'jsfc_vts',
   timezone: 'Z',
   connectionLimit: Number(process.env.DB_POOL_LIMIT || 10),
   waitForConnections: true,
